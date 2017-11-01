@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 900px;
+	width: 100%;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.maps{
+
+	} .maps__title{
+
+	} .maps__wrap{
+
+	}
+
+.travel-map{
+	margin-bottom: 15px;
+	} .travel-map__buttons{
+		margin-bottom: 15px;
+	} .travel-map__buttons-block{
+			display: inline-block;
+		}
+	.travel-map__map-itself{
+		height: 500px;
+	}
+
+.styled-map{
+		border: 1px solid lightgray;
+		padding: 15px;
+	} .styled-map__list{
+		padding: 0;
+		list-style: none;
+	} .styled-map__list-item{
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		padding: 15px;
+		border: 1px solid;
+	}

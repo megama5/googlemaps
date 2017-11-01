@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Google map</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<main>
+		<section class="maps container">
+			<h1 class="maps__title">Exaple of beautiful google maps api </h1>
+			<div class="maps__wrap travel-map">
+				<div class="travel-map__buttons">
+					<div class="travel-map__buttons-block">
+						<label for="start">Start</label>
+						<input class="travel-map__buttons-input" type="text" name="start" id='start' placeholder="City name" value="Киев">	
+					</div>
+					<div class="travel-map__buttons-block">
+						<label for="end">End</label>
+						<input class="travel-map__buttons-input" type="text" name="start" id='end' placeholder="City name" value="Одесса">	
+					</div>
+					<div class="travel-map__buttons-block">
+						<button class="travel-map__buttons-button" id="calc">Calulate</button>
+					</div>
+				</div>
+				<!-- .travel-map__buttons -->
+				<div class="travel-map__map-itself" id="travel-map">
+					
+				</div>
+				<!-- .travel-map__map-itself -->
+			</div>
+			<div class="maps__wrap styled-map">
+				<div class="styled-map__buttons">
+					<button class="styled-map__buttons-shuflle" id="shuflle">Shuflle</button>
+				</div>
+				<ul class="styled-map__list">
+					<li class="styled-map__list-item"></li>
+					<li class="styled-map__list-item"></li>
+					<li class="styled-map__list-item"></li>
+					<li class="styled-map__list-item"></li>
+					<li class="styled-map__list-item"></li>
+				</ul>
+			</div>
+		</section>		
+	</main>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="assets/js/map_styles.js" ></script>
+	<script type="text/javascript" src="assets/js/script.js" ></script>
+</body>
+</html>
